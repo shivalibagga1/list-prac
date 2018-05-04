@@ -1,0 +1,186 @@
+*{
+	margin: 0; 
+	padding: 0;
+	/*list-style: none;*/
+	box-sizing: border-box;
+}
+
+html,body{
+	min-height: 100%;
+	height: 100%;
+}
+
+.task-conatainer{
+	margin: 10% auto;
+	/*border: 1px solid #adb1b2;*/
+	border: 1px solid #adb1b247;
+	width: 30%;
+	padding: 0 1% 1% 1%;
+	background: #eef3f5;
+	float: none!important;
+}
+
+h1{
+	color: #97a2b5;
+}
+
+.data{
+	border-bottom: 1px solid #2b2d42;
+	padding: 3% 0 5% 0;
+}
+
+form{
+	margin:3% 0 1% 0;
+}
+
+#txt_val{
+	margin: 0 0 1% 0;
+	padding: 6px;
+}
+
+button{
+	border: none;
+	padding: 8px 15px;
+	border-radius: 5%;
+	background: #8d99ae;
+	outline: none;
+}
+
+/*button:hover{
+	background: #747e8f;
+}*/
+
+#btn{
+	margin: 0 0 1% 0;
+}
+
+.test-msg{
+	width: 27%;
+	padding: 1%;
+}
+ol{
+	margin-left: 15px;
+}
+
+ol button{
+	border: none;
+	padding: 1px 5px;
+	border-radius: 14%;
+	/*background: #9bc53d;*/
+	outline: none;
+	top:-3px;
+}
+
+/*ul button:hover{
+	background: #7fa232;
+}*/
+
+.close-task{
+	border: none;
+	/*padding: 7px;*/
+	border-radius: 14%;
+	/*background: #f14b5f;*/
+	background: #e76846;
+	outline: none;
+	margin: 0 0 0 1%;
+	/*position: absolute;
+	right: -70px;*/
+	opacity: 1;
+	float:right;
+}
+
+.close-task:hover{
+	background: #e55934;
+}
+
+.done,.undo,.update{
+	float:right;
+	background: #b6d471;
+}
+
+.done:hover,.undo:hover{
+	background: #a4ca4e;
+}
+
+.update{
+	margin-right: 1%;
+	background: #b4e2f5;
+}
+
+.update:hover{
+	background: #a5dcf4;
+}
+
+/*.close:hover{
+	background: #ef233c;
+}*/
+
+/*.done{
+	position: absolute;
+	right: -45px;
+}*/
+
+.strike{
+	text-decoration: line-through;
+	/*background: #b6becb;
+	border: 1px solid #b6becb;
+	color: #a1abbc;*/
+	opacity: 0.6;
+}
+
+.strike:hover{
+	background: #b6becb;
+	opacity: 0.6;
+}
+
+li{
+	width: 80%;
+	background: #8d99ae;
+	/*border: 1px solid #2b2d42;*/
+	border-radius: 7%;
+	/*display: inline-block;*/
+	padding: 1%;
+	margin: 1% 0 0 0;
+	position: relative;
+	line-height: 1.7;
+	animation-name: example;
+	animation-duration: 0.7s;
+}
+
+li:hover{
+	background: #747e8f;
+}
+
+/*.in{
+	 opacity: 1;
+}
+
+.fade{
+	opacity: 0;
+	transition: opacity 0.7s;
+  	-webkit-transition: opacity 0.7s;
+  	-moz-transition: opacity 0.7s;
+}*/
+
+@-webkit-keyframes example{
+	from{
+		opacity: 0;
+	}
+	to{
+		opacity: 1;
+	}
+}
+
+@keyframes example{
+	from{
+		opacity: 0;
+	}
+	to{
+		opacity: 1;
+	}
+}
+
+
+
+
+
